@@ -1,0 +1,310 @@
+/*======================================================================
+Products
+========================================================================*/
+
+
+.products-title{
+  color: red;
+}
+
+/*.content-wrapper {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.content-wrapper.error {
+  padding: 40px 0;
+}
+
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}*/
+
+/*main .recentlyadded .products, main .products .products-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px 0 0 0;
+}*/
+
+/*.products, .products .product-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px 0 0 0;
+}*/
+
+
+
+
+/*main .recentlyadded .products .product, main .products .products-wrapper .product {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  width: 25%;
+  padding-bottom: 60px;
+}*/
+
+/*.recentlyadded .products .product, .products .products-wrapper .product {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  width: 25%;
+  padding-bottom: 60px;
+}*/
+
+
+/*main .recentlyadded .products .product img, main .products .products-wrapper .product img {
+  transform: scale(1);
+  transition: transform 1s;
+}*/
+
+/*.recentlyadded .products .product img, .products .products-wrapper .product img {
+  transform: scale(1);
+  transition: transform 1s;
+}*/
+
+/*main .recentlyadded .products .product .name, main .products .products-wrapper .product .name {
+  display: block;
+  color: #555555;
+  padding: 20px 0 2px 0;
+}*/
+
+/*.products .products-wrapper .product .name {
+  display: block;
+  color: #555555;
+  padding: 20px 0 2px 0;
+}*/
+
+
+/*main .recentlyadded .products .product .price, main .products .products-wrapper .product .price {
+  display: block;
+  color: #999999;
+}*/
+
+/*.recentlyadded .products .product .price, .products .products-wrapper .product .price {
+  display: block;
+  color: #999999;
+}*/
+
+/*main .recentlyadded .products .product .rrp, main .products .products-wrapper .product .rrp {
+  color: #BBBBBB;
+  text-decoration: line-through;
+}*/
+
+/*.recentlyadded .products .product .rrp, main .products .products-wrapper .product .rrp {
+  color: #BBBBBB;
+  text-decoration: line-through;
+}*/
+
+/*main .recentlyadded .products .product:hover img, main .products .products-wrapper .product:hover img {
+  transform: scale(1.05);
+  transition: transform 1s;
+}*/
+
+/*.recentlyadded .products .product:hover img, main .products .products-wrapper .product:hover img {
+  transform: scale(1.05);
+  transition: transform 1s;
+}*/
+
+/*main .recentlyadded .products .product:hover .name, main .products .products-wrapper .product:hover .name {
+  text-decoration: underline;
+}*/
+/*
+.recentlyadded .products .product:hover .name, .products .products-wrapper .product:hover .name {
+  text-decoration: underline;
+}*/
+
+/*main > .product {
+  display: flex;
+  padding: 40px 0;
+}*/
+
+/*.product {
+  display: flex;
+  padding: 40px 0;
+}*/
+/*main > .product h1 {
+  font-size: 34px;
+  font-weight: normal;
+  margin: 0;
+  padding: 20px 0 10px 0;
+}*/
+
+/*.product h1 {
+  font-size: 34px;
+  font-weight: normal;
+  margin: 0;
+  padding: 20px 0 10px 0;
+}*/
+
+/*main > .product .product-small-imgs img {
+  border: 1px solid #EEEEEE;
+  cursor: pointer;
+  margin: 20px 12px 0 0;
+}*/
+
+/*.product .product-small-imgs img {
+  border: 1px solid #EEEEEE;
+  cursor: pointer;
+  margin: 20px 12px 0 0;
+}*/
+
+
+/*main > .product .product-small-imgs img.selected {
+  border: 1px solid #c8c8c8;
+*/
+
+/*.product .product-small-imgs img.selected {
+  border: 1px solid #c8c8c8;
+}
+
+main > .product .product-wrapper {
+  padding-left: 15px;
+}
+
+.product .product-wrapper {
+  padding-left: 15px;
+}
+
+.product .price {
+  display: block;
+  font-size: 22px;
+  color: #999999;
+}
+
+.product .rrp {
+  color: #BBBBBB;
+  text-decoration: line-through;
+  font-size: 22px;
+  padding-left: 5px;
+}
+
+.product form {
+  display: flex;
+  flex-flow: column;
+  margin: 40px 0;
+}
+
+.product form select, main > .product form input[type="number"] {
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  color: #555555;
+  border-radius: 5px;
+}
+
+.product form input[type="submit"] {
+  background: #4e5c70;
+  border: 0;
+  color: #FFFFFF;
+  width: 400px;
+  padding: 12px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product form input[type="submit"]:hover {
+  background: #434f61;
+}
+
+product form input[type="submit"]:disabled {
+  background: #ddd;
+}
+
+.products h1 {
+  display: block;
+  font-weight: normal;
+  margin: 0;
+  padding: 40px 0;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+}
+
+.products .products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.products .products-header p {
+  margin: 0;
+}
+
+.products .products-header label {
+  padding-left: 20px;
+}
+
+.products .products-header select {
+  padding: 5px;
+  margin-left: 15px;
+  border: 1px solid #ccc;
+  color: #555555;
+  border-radius: 5px;
+}
+
+.products .buttons {
+  text-align: right;
+  padding-bottom: 40px;
+}
+
+.products .buttons a {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 5px;
+  padding: 12px 20px;
+  border: 0;
+  background: #4e5c70;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.products .buttons a:hover {
+  background: #434f61;
+}*/
+
+
+/* Responsive CSS below */
+@media screen and (max-width: 1050px) {
+  .content-wrapper {
+    width: 100%;
+    padding: 0 10px;
+  }
+ 
+  main .recentlyadded .products, main .products .products-wrapper {
+    justify-content: center;
+  }
+  main .recentlyadded .products .product, main .products .products-wrapper .product {
+    width: auto;
+  }
+
+  main > .products .products-header {
+    flex-flow: column;
+  }
+  main > .products .products-header p {
+    padding-bottom: 10px;
+  }
+  main > .products .products-header form {
+    display: flex;
+    flex-flow: column;
+  }
+  main > .products .products-header form label {
+    padding-top: 15px;
+  }
+}

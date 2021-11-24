@@ -1,0 +1,273 @@
+.create_account_header{
+    text-align: center;
+    justify-content: center;
+}
+#create_account{
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(222,184,135, 0.80);
+    border: 2px solid black;
+    padding: 25px 25px;
+    border-radius: 5px;
+}
+
+a{
+    padding: 5px;
+    font-weight: bold;
+}
+
+h5{
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+p{
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.create_account_background{
+    height: auto;
+    width: 100%;
+    background-image: url("../images/createaccbg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position:absolute;
+}
+
+.form-control{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.form-control:focus{
+    border-color: #FFCC00;
+    border: 3px solid #FFCC00;
+    box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.075), 0 0 10px rgba(130, 0, 0, 0.6);
+}
+
+label{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.content{
+    font-family: Times New Roman;
+}
+.button {
+  background-color: #e7a977;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 20px;
+  margin: auto;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color:moccasin; 
+  color: black; 
+  border: 2px solid black;
+  border-radius: 12px;
+  justify-content: center;
+  width: 55%;
+}
+
+.button1:hover {
+  background-color: #e7a977;
+  color: white;
+  border: 2px solid black;
+}
+
+.ReturnToSignUp {
+  background-color: moccasin; 
+  color: black; 
+  border: 2px solid black;
+  border-radius: 12px;
+  justify-content: center;  
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  width: 45%;
+  font-size: 20px;
+  margin: auto;
+}
+
+.ReturnToSignUp:hover{
+  background-color: darkred;
+  color: white;
+  border: 2px solid black;
+}
+
+.ReturnToLogin {
+  background-color: moccasin; 
+  color: black; 
+  border: 2px solid black;
+  border-radius: 12px;
+  justify-content: center;  
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  width: 45%;
+  font-size: 20px;
+  margin: auto;
+}
+
+.ReturnToLogin:hover{
+  background-color: darkgreen;
+  color: white;
+  border: 2px solid black;
+}
+
+.ReturnToHome {
+  background-color: moccasin; 
+  color: black; 
+  border: 2px solid black;
+  border-radius: 12px;
+  justify-content: center;  
+}
+
+.ReturnToHome:hover{
+  background-color: darkgreen;
+  color: white;
+  border: 2px solid black;
+}
+
+.account_creation_output{
+    text-align: center;
+    justify-content: center;
+}
+
+.error-message{
+    color: black;
+    text-align: center;
+}
+
+#register_icon{
+    font-size: 120px !important;
+    background-color: moccasin;
+    border-style: solid;
+    border: 2px solid black;
+    border-radius: 150px;
+    width: 125px;
+}
+
+#process_account_failed{
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,127,127,0.80);
+    border: 2px solid black;
+    padding: 25px 25px;
+    border-radius: 5px;
+}
+
+#process_account_icon{
+    font-size: 120px !important;
+}
+
+.process_account_background{
+    height: auto;
+    width: 100%;
+    background-image: url("../images/processaccount.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position:absolute;
+}
+
+#process_account_succeed{
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(179,225,172,0.80);
+    border: 2px solid black;
+    padding: 25px 25px;
+    border-radius: 5px;
+}
+
+
+#create_account{
+    font-family: Helvetica, Arial;
+}
+
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popup .content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%) scale(0);
+    background: gainsboro;
+    width: auto;
+    height: auto;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 12px 12px 12px 12px;
+}
+
+.popup .close-btn{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    width: 30px;
+    height: 30px;
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.popup .close-btn:hover{
+    background-color: #afa48f;
+}
+.popup.active .overlay {
+    display: block;
+}
+
+.popup.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.tos{
+    font-size: 12px;
+    font-family: Times New Roman;
+    font-weight: lighter;
+}
